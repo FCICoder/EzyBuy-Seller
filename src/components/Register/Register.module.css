@@ -1,0 +1,15 @@
+.Register {}
+
+.input{
+    border-width: 1px !important;
+    border-color:  rgb(158, 158, 158) !important;
+    height: 40px !important;
+    box-shadow:none !important;
+    border-radius: 10px !important;
+}
+
+.input:focus{
+    border-width: 3px 3px 3px 3px !important;
+
+    border-color: black !important; 
+}

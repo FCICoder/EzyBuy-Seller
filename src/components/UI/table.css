@@ -1,0 +1,25 @@
+.dark {
+  transition: all 0.3s ease-out;
+}
+.dark .p-datatable .p-datatable-tbody > tr {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+.dark .p-datatable .p-datatable-thead > tr > th {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+.dark .p-datatable-header {
+  background: rgb(29, 29, 29) !important;
+  color: white;
+}
+.dark .p-datatable-footer {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+.dark input,
+.dark .p-multiselect,
+.dark .p-dropdown {
+  background: rgb(29, 29, 29);
+  color: white;
+}

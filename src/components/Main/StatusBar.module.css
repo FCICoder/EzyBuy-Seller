@@ -1,0 +1,21 @@
+.status {
+  padding: 1.1rem 0.75rem;
+  border-bottom: 1px solid rgb(204, 202, 202);
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statusDark {
+  background-color: rgb(29, 29, 29);
+  color: #eee;
+}
+.notif {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+  align-items: center;
+}

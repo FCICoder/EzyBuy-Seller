@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    padding: 1.5rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+}
+.tableContainer{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+}
+@media (max-width:1180px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

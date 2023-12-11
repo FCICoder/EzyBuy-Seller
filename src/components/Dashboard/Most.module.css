@@ -1,0 +1,26 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.object{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.details{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.details h3{
+    font-size: .8rem;
+}
+.details h4 {
+    font-size: .7rem;
+}
+.details img{
+    width: 30px;
+    border-radius: 10%;
+}

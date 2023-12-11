@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a{
+  text-decoration: none;
+}
+table {
+  font-size: .75rem;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

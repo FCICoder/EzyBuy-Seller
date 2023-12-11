@@ -1,0 +1,21 @@
+.EditPrd {}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+  }
+  .img {
+    width: 6rem;
+    border-radius: 10%;
+  }
+  .names {
+    font-weight: bold;
+  }
+  
+  .hdr a:hover {
+    background-color: transparent !important;
+    box-shadow: none;
+  }

@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  height: 100vh;
+  transition: all .3s ease-out;
+}
+.mainDark {
+  background-color: rgb(51, 50, 50);
+  color: white;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: rgb(16, 16, 16);
+  color: rgb(255, 255, 255);
+  flex: 1;
+  position: static;
+  z-index: 4;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+.navDark {
+  background-color: rgb(29, 29, 29);
+  color: #eee;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.content {
+  flex: 6;
+  overflow: auto;
+}
+.section {
+  margin-top: 4rem;
+  padding-right: 2rem;
+}

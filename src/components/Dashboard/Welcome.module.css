@@ -1,0 +1,49 @@
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.text h2{
+    font-weight: 500;
+}
+.info img {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    
+}
+
+.stat  {
+    color: gray;
+    font-weight: 500;
+    font-size: .8rem;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 40px;
+}
